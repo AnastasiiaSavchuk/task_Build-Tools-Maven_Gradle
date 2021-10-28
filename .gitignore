@@ -7,3 +7,9 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 /.idea/
+/.gradle/
+/admin/build/
+/services/build/
+/utils/build/
+/web/build/
+/out/

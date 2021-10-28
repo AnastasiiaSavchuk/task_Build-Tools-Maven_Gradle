@@ -1,0 +1,3 @@
+rootProject.name = 'task_CI-CD-Jenkins'
+
+include ':admin', ':services', ':utils', ':web'

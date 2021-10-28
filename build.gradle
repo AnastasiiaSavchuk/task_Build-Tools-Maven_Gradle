@@ -1,0 +1,21 @@
+allprojects {
+    version ='1.0.0'
+
+    repositories {
+            mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    dependencies {
+        implementation 'javax.servlet:servlet-api:2.5'
+        testImplementation 'junit:junit:4.13.2'
+    }
+}
